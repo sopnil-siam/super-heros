@@ -5,7 +5,8 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Comic Neue', 'Poppins', Arial, sans-serif;
+ font-family: 'Comic Neue', 'Poppins', Arial, sans-serif;
+
   line-height: 1.6;
   background: #0f0f0f;
   color: #fff;
@@ -65,7 +66,7 @@ body {
   border-radius: 20px;
   overflow: visible;
 
-  background: url("images/thumb-1920-283338 (1).jpg") center center / cover no-repeat;
+  background: url("images/main-bg.jpg") center center / cover no-repeat;
 }
 
 /* 2) Animated glow border */
@@ -109,7 +110,7 @@ body {
 
 /* 5) Headings and Text */
 .banner-content h1 {
-  font-family: 'Comic Neue', cursive;
+  font-family: 'Comic Neue', 'Poppins';
   font-size: 3rem;
   color: #fff;
   margin-bottom: 0.8rem;
@@ -396,7 +397,7 @@ table th {
 }
 
 h1, h2, h3, .hero-name {
-  font-family: 'Dancing Script', cursive;
+   font-family: 'Comic Neue', 'Poppins';
 }
 
 /* 🔷 Related Heroes */
