@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About - Superhero Universe</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- 🔷 Navbar -->
+<header class="navbar">
+  <div class="logo"> Superhero Universe</div>
+
+  <!-- Hamburger Icon -->
+  <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+
+  <!-- Menu -->
+  <nav id="nav-menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="categories.html">Categories</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <!-- 🔷 Banner -->
+  <section class="about-banner">
+    <div class="banner-text">
+      <h1>About This Universe</h1>
+      <p>A fan-made tribute to heroes from all worlds</p>
+    </div>
+  </section>
+
+  <!-- 🔷 About Section -->
+  <section class="about-section">
+    <div class="container">
+      <h2> What is Superhero Universe?</h2>
+      <p>This website is a gallery, tribute, and information hub for superheroes across franchises like Marvel, DC, and Anime worlds. It showcases heroes, powers, bios, and visuals that fans love.</p>
+
+      <h2> Who Created This?</h2>
+      <p>Hey there! I'm <strong>Sopnil Siam</strong>, a passionate web designer and superhero fan. I built this project to mix my love for tech and heroes into one beautiful universe. ✨</p>
+
+      <h2> Why Superheroes?</h2>
+      <p>Superheroes inspire courage, justice, and the belief that anyone can rise above. This website is my way of saying thank you to the legends who’ve saved worlds and won hearts.</p>
+
+      <h2> Timeline & Highlights</h2>
+      <ul class="timeline">
+        <li><strong>2024:</strong> Idea Born – Wanted to create a cool gallery</li>
+        <li><strong>2025:</strong> Learned HTML & CSS, built the first version</li>
+        <li><strong>Now:</strong> Constantly adding heroes, new pages, and animations</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 🔷 Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Superhero Universe | Created by Sopnil Siam</p>
+    <div class="socials">
+      <a href="#">Facebook</a> |
+      <a href="#">YouTube</a> |
+      <a href="#">GitHub</a>
+    </div>
+  </footer>
+
+  <script>
+  const toggle = document.getElementById("menu-toggle");
+  const nav = document.querySelector("nav ul");
+
+  toggle.addEventListener("click", () => {
+    nav.classList.toggle("active");
+  });
+</script>
+
+</body>
+</html>

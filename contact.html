@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - Superhero Universe</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- 🔷 Navbar -->
+<header class="navbar">
+  <div class="logo"> Superhero Universe</div>
+
+  <!-- Hamburger Icon -->
+  <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+
+  <!-- Menu -->
+  <nav id="nav-menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="categories.html">Categories</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <!-- 🔷 Contact Section -->
+  <section class="contact-section">
+    <h1>📬 Contact Us</h1>
+    <p>If you have questions, feedback, or hero suggestions, fill out the form below!</p>
+
+    <form class="contact-form">
+      <label for="name">👤 Your Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <label for="email">📧 Your Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="message">💬 Your Message:</label>
+      <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="social-contact">
+      <h3>Or find us on:</h3>
+      <p>
+        <a href="#">Facebook</a> | 
+        <a href="#">GitHub</a> | 
+        <a href="#">YouTube</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- 🔷 Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Superhero Universe | Contact Page</p>
+  </footer>
+
+  <script>
+  const toggle = document.getElementById("menu-toggle");
+  const nav = document.querySelector("nav ul");
+
+  toggle.addEventListener("click", () => {
+    nav.classList.toggle("active");
+  });
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Superhero Universe</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- 🔷 Navbar -->
+<header class="navbar">
+  <div class="logo"> Superhero Universe</div>
+
+
+  <!-- 🔻 Hamburger Icon for Mobile -->
+  <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+
+
+  <!-- Menu -->
+  <nav id="nav-menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="categories.html">Categories</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+  <!-- 🔷 Hero Banner -->
+  <section class="banner">
+    <div class="banner-content">
+      <h1>Explore the World of Heroes</h1>
+      <p>From Marvel to DC to Anime – all in one universe!</p>
+      <a href="#" class="btn">Browse Heroes</a>
+    </div>
+  </section>
+
+  <!-- 🔷 Top Heroes Section -->
+  <section class="top-heroes">
+    <h2> Featured Heroes</h2>
+    <div class="hero-scroll">
+<a href="hero-detail.html">
+  <div class="hero-card">
+    <img src="https://4kwallpapers.com/images/walls/thumbs/17657.jpg" alt="Iron Man" />
+    <p>Iron Man</p>
+  </div>
+</a>
+
+      <div class="hero-card"><img src="https://4kwallpapers.com/images/walls/thumbs_2t/10340.jpg" alt="Batman" />
+        <p>Batman</p>
+      </div>
+      <div class="hero-card"><img src="https://4kwallpapers.com/images/walls/thumbs/13725.jpg" alt="Spiderman" />
+        <p>Spiderman</p>
+      </div>
+      <div class="hero-card"><img src="https://4kwallpapers.com/images/walls/thumbs/20873.jpg" alt="Goku" />
+        <p>Goku</p>
+      </div>
+      <div class="hero-card"><img src="https://4kwallpapers.com/images/walls/thumbs/7430.jpg" alt="Thor" />
+        <p>Dr Stephen Strange</p>
+      </div>
+      <div class="hero-card"><img src="https://4kwallpapers.com/images/walls/thumbs/21077.jpg" alt="Hulk">
+        <p>Hulk</p>
+      </div>
+      <div class="hero-card"><img src="https://4kwallpapers.com/images/walls/thumbs/11488.jpg" alt="Flash">
+        <p>Flash</p>
+      </div>
+      <div class="hero-card"><img src="https://4kwallpapers.com/images/walls/thumbs_2t/19039.jpg" alt="Superman">
+        <p>Superman</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 🔷 Universe Description Section -->
+  <section class="universe-info">
+    <h2>🔭 Dive into Multiverse</h2>
+    <p>Superheroes from different worlds are here. Marvel, DC, Anime and more – discover their powers, stories and
+      battles.</p>
+    <a href="#" class="btn">Start Exploring</a>
+  </section>
+
+  <!-- 🔷 Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Superhero Universe | Built by Sopnil Siam</p>
+    <div class="socials">
+      <a href="#">Facebook</a> |
+      <a href="#">Twitter</a> |
+      <a href="#">YouTube</a>
+    </div>
+  </footer>
+
+
+  <script>
+  const toggle = document.getElementById("menu-toggle");
+  const nav = document.querySelector("nav ul");
+
+  toggle.addEventListener("click", () => {
+    nav.classList.toggle("active");
+  });
+</script>
+
+</body>
+
+</html>

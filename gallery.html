@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>All Heroes - Superhero Universe</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- 🔷 Navbar (Same as Home) -->
+  
+<header class="navbar">
+  <div class="logo"> Superhero Universe</div>
+
+  <!-- Hamburger Icon -->
+  <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+
+  <!-- Menu -->
+  <nav id="nav-menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="categories.html">Categories</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <!-- 🔷 Hero Gallery Section -->
+  <section class="gallery-page">
+    <h1> All Superheroes</h1>
+    <div class="hero-grid">
+      <div class="card">
+        <img src="https://4kwallpapers.com/images/walls/thumbs/17657.jpg" alt="Iron Man">
+        <h3>Iron Man</h3>
+        <p>Genius billionaire in a flying suit.</p>
+      </div>
+      <div class="card">
+        <img src="https://4kwallpapers.com/images/walls/thumbs_2t/10340.jpg" alt="Batman">
+        <h3>Batman</h3>
+        <p>The Dark Knight of Gotham City.</p>
+      </div>
+      <div class="card">
+        <img src="https://4kwallpapers.com/images/walls/thumbs/13725.jpg" alt="Spiderman">
+        <h3>Spiderman</h3>
+        <p>Friendly neighborhood web-slinger.</p>
+      </div>
+      <div class="card">
+        <img src="https://4kwallpapers.com/images/walls/thumbs/20873.jpg" alt="Goku">
+        <h3>Goku</h3>
+        <p>Defender of Earth with Saiyan strength.</p>
+      </div>
+      <div class="card">
+        <img src="https://i.redd.it/7un2t068z3ta1.jpg" alt="Thor">
+        <h3>Thor</h3>
+        <p>God of Thunder with Mjölnir.</p>
+      </div>
+      <div class="card">
+        <img src="https://4kwallpapers.com/images/walls/thumbs/935.jpg" alt="Wonder Woman">
+        <h3>Wonder Woman</h3>
+        <p>Amazonian warrior with a lasso of truth.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🔷 Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Superhero Universe | All Rights Reserved</p>
+  </footer>
+
+  <script>
+  const toggle = document.getElementById("menu-toggle");
+  const nav = document.querySelector("nav ul");
+
+  toggle.addEventListener("click", () => {
+    nav.classList.toggle("active");
+  });
+</script>
+
+</body>
+</html>
