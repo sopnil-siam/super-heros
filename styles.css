@@ -263,7 +263,7 @@ table th {
 
 /* 🔷 About Banner */
 .about-banner {
-  background: url('/images/abstract-yellow.jpg') center/cover no-repeat;
+  background: url('images/abstract-yellow.jpg') center/cover no-repeat;
   height: 60vh;
   display: flex;
   align-items: center;
