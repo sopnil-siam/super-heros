@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Comic Neue', cursive;
+  font-family: 'Comic Neue', 'Poppins', Arial, sans-serif;
   line-height: 1.6;
   background: #0f0f0f;
   color: #fff;
@@ -393,6 +393,10 @@ table th, table td {
 }
 table th {
   background: #222;
+}
+
+h1, h2, h3, .hero-name {
+  font-family: 'Dancing Script', cursive;
 }
 
 /* 🔷 Related Heroes */
