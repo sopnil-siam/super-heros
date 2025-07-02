@@ -249,7 +249,7 @@ body {
   bottom: -2px;
   background: linear-gradient(45deg,
     #ff0000, #ff7300,  
-    , #00ffd5, #002bff, 
+   #00ffd5, #002bff, 
     #7a00ff, #ff00c8, #ff0000);
   background-size: 400%;
   z-index: -2;
